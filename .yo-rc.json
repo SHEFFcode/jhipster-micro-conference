@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.sheffmachine"
+    },
+    "jhipsterVersion": "5.8.1",
+    "applicationType": "microservice",
+    "baseName": "conference",
+    "packageName": "com.sheffmachine",
+    "packageFolder": "com/sheffmachine",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NTIwMjYxY2Q1NTczZTJlMmY2ODI0MDhiNjRmYTkwYjMyZDhhOTNkMmMxNDEwYzc3MjY3ZWFjNzY5NDk0ZmQxOTAxNTYxYTI1M2MyNzY3YWNmNTk3ZTgxZmY0MDMwN2E5MDdhNDlmMzczZDQ0ZmE5MzU2ZGI2N2ZjYmI4Njc0NWI=",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
